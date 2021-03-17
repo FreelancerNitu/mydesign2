@@ -1,0 +1,118 @@
+/* For desktop */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.46%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* navBar start */
+.nav-logo{
+    text-align: left;
+}
+.nav-logo img{
+    max-width: 70px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+}
+.nav-logo img:hover{
+    transform: scale(1.1);
+}
+.nav-title h1{
+    text-align: right;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+    padding: 5px 10px;
+    margin: 13px;
+    margin-top: 18px;
+    background-color: transparent;
+}
+/* NavBar end */
+
+/* Profile start */
+.profile .top-weather-icon{
+    right: 100px;
+    transition:width 2s,transform 2s ;
+    width: 140px;
+    height: 120px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.profile .top-weather-icon:hover{
+    width: 200px;
+}
+.profile .bottom-weather-icon{
+    left: 100px;
+    transition:width 2s,transform 2s ;
+    width: 140px;
+    height: 120px;
+    border-radius: 50px;
+    cursor: pointer;
+    bottom: 20px;
+}
+.profile .bottom-weather-icon:hover{
+    width: 200px;
+}
+.profile-desh p{
+    color: black;
+    margin: 0px auto;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 10px;
+}
+/* profile end */
+
+/* About me start */
+.about-img{
+    margin-top: 100px;
+}
+.about-img img{
+    width: 250px;
+    height: 270px;
+}
+.about-desh p{
+    text-align: left;
+    margin-top: 20px;
+}
+/* About me end */
+
+/* contact me start */
+.achivement-contact{
+    padding-right: 50px;
+}
+.contact-me button{
+    width: 150px;
+}
+.contact-links{
+    position: relative;
+}
+.media-btn{
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* contact me end */
+/* footer start */
+.footer-memu{
+    margin-top: 12px;
+}
+.footer-memu a{
+  display: inline;
+  margin: 10px;
+}
+
+/* footer end */
